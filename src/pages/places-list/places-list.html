@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Parks</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <ion-card-header>
+    Prince Alfred Park
+  </ion-card-header>
+  <ion-card (click)="goToDetail(null)">
+    <img src="assets/img/Prince-Alfred-Park.jpg" />
+
+
+  </ion-card>
+  <ion-card-header>
+    Victoria Park
+  </ion-card-header>
+  <ion-card (click)="goToDetail(null)">
+    <img src="assets/img/Victoria-Park-Pool.jpg" />
+
+
+  </ion-card>
+  <ion-card-header>
+    Clovelly Outdoor Gym
+  </ion-card-header>
+  <ion-card (click)="goToDetail(null)">
+    <img src="assets/img/Clovelly-Outdoor-Gym.jpg" />
+
+
+  </ion-card>
+</ion-content>

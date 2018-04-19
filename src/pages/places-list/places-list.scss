@@ -1,0 +1,22 @@
+page-places-list {
+  .card-background-page {
+    ion-card {
+      position: relative;
+      text-align: center;
+    }
+    .card-title {
+      position: absolute;
+      top: 14%;
+      font-size: 2em;
+      width: 100%;
+      font-weight: bold;
+      color: #1b215a;
+    }
+  }
+  @media (min-width: 600px) {
+    .test {
+      width: 60%;
+      margin: 10px auto;
+    }
+  }
+}

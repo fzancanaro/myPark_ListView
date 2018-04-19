@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>List of Parks</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card *ngFor="let item of items">
+    <img [src]="item.thumbnailUrl" />
+    <ion-card-content>
+      <ion-card-title>
+        {{item.title}}
+      </ion-card-title>
+      <p>
+        This is just a test.
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
